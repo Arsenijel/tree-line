@@ -1,0 +1,168 @@
+body {
+  display:flex;
+  justify-content: center;
+  background-color: #F2F2F2;
+  height: 100vh;
+  font-family: 'Big Shoulders Display', cursive;
+
+
+}
+.all {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 50px;
+margin-bottom: 50px;
+border-radius: 20px;
+width: 90%;
+
+}
+.first {
+  background-color: #E38826;
+  border-radius: 5px 5px 0 0;
+}
+.second
+{
+ background-color: #006970;
+}
+.tird {
+  background-color: #004241;
+  margin-bottom: 50px;
+  border-radius: 0 0 5px 5px;
+}
+.myButton1 {
+	background-color:#F2F2F2;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#E38826;
+	font-family:Arial;
+	font-size:11px;
+	padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+	text-decoration:none;
+  margin: 0px 20px 30px 20px;
+  height: 2px;
+  width: 60px;
+  border:1px solid white;
+}
+.myButton1:hover {
+  background-color:transparent;
+  color: white;
+}
+.myButton1:active {
+	position:relative;
+	top:1px;
+}
+.myButton2 {
+	background-color:#F2F2F2;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#006970;
+	font-family:Arial;
+	font-size:11px;
+	padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+	text-decoration:none;
+  margin: 0px 20px 30px 20px;
+  height: 2px;
+  width: 60px;
+  border:1px solid white;
+}
+.myButton2:hover {
+  background-color:transparent;
+  color: white;
+}
+.myButton2:active {
+	position:relative;
+	top:1px;
+}
+.myButton3 {
+	background-color:#F2F2F2;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#004241;
+	font-family:Arial;
+	font-size:11px;
+	padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+	text-decoration:none;
+  margin: 0px 20px 30px 20px;
+  height: 2px;
+  width: 60px;
+  border:1px solid white;
+}
+.myButton3:hover {
+	background-color:transparent;
+  color: white;
+
+}
+.myButton3:active {
+	position:relative;
+	top:1px;
+}
+
+h1 {
+  padding-left: 20px;
+  font-size: 1.5em;
+  color: #F2F2F2;
+}
+p {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 12px;
+  color: #FFF0F0;
+  font-family: 'Lexend Deca', sans-serif;
+}
+img {
+  margin-left: 20px;
+  margin-top: 20px;
+  height: 20px;
+  width: 32px;
+}
+@media (min-width:521px){
+  .all {
+    display: flex;
+    flex-direction: row;
+    max-width: 690px;
+  }
+  .tird {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    border-radius: 0 5px 5px 0;
+    height: 400px;
+  }
+  .first {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px 0 0 5px;
+    height: 400px;
+  }
+  .second {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  p {
+    line-height: 2;
+  }
+  img {
+    width: 50px;
+    height: 30px;
+  }
+}
